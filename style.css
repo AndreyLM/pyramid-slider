@@ -1,0 +1,38 @@
+#pyramid {
+	font-family: "Courier New", monospace;
+	line-height: 0;
+}
+.blackBox {
+	width: 50px;
+	height: 50px;
+	display:inline-block;
+	background-color: black;
+	border: 1px solid #FFFFFF;
+}
+.whiteBox {
+	width: 50px;
+	height: 50px;
+	display:inline-block;
+	background-color: #FFF;
+	border: 1px solid #000;
+}
+.clearfix {
+	clear:both;
+}
+#rangeTitle, #rangeValue, #brickTitle, #symbol {
+	display:inline-block;
+	margin: 0;
+	padding-bottom: 5px;	
+}
+
+#rangeInput {
+	display:inline-block;
+}
+
+.boxContent {
+	color: #FFF;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+}
